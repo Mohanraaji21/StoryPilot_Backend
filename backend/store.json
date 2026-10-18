@@ -1,0 +1,191 @@
+{
+ "STORY-100": {
+  "story_id": "STORY-100",
+  "title": "Reject missing account and non-positive amounts",
+  "description": "Validate payment requests before processing.",
+  "priority": "high",
+  "acceptance_criteria": [
+   {
+    "id": "AC-1",
+    "text": "Missing account identifiers are rejected"
+   },
+   {
+    "id": "AC-2",
+    "text": "Non-positive amounts are rejected"
+   }
+  ],
+  "source_ids": [
+   "SRC-1",
+   "SRC-D1",
+   "SRC-T1"
+  ],
+  "status": "assigned",
+  "findings": [],
+  "questions": [],
+  "decisions": [],
+  "trace": [],
+  "docs": null,
+  "audit_events": [],
+  "analysis_stats": null
+ },
+ "STORY-101": {
+  "story_id": "STORY-101",
+  "title": "Harden payment authentication and limits",
+  "description": "Enforce token validity and amount rules on payment requests.",
+  "priority": "high",
+  "acceptance_criteria": [
+   {
+    "id": "AC-1",
+    "text": "Missing account identifiers are rejected"
+   },
+   {
+    "id": "AC-2",
+    "text": "Expired tokens are handled"
+   },
+   {
+    "id": "AC-3",
+    "text": "Oversized amounts are rejected"
+   }
+  ],
+  "source_ids": [
+   "SRC-1",
+   "SRC-D1"
+  ],
+  "status": "assigned",
+  "findings": [],
+  "questions": [],
+  "decisions": [],
+  "trace": [],
+  "docs": null,
+  "audit_events": [],
+  "analysis_stats": null
+ },
+ "STORY-102": {
+  "story_id": "STORY-102",
+  "title": "Standardise invalid-request error response",
+  "description": "Invalid requests must return the documented error response.",
+  "priority": "medium",
+  "acceptance_criteria": [
+   {
+    "id": "AC-1",
+    "text": "Invalid requests return the documented error response"
+   }
+  ],
+  "source_ids": [
+   "SRC-1",
+   "SRC-2",
+   "SRC-D1"
+  ],
+  "status": "assigned",
+  "findings": [],
+  "questions": [],
+  "decisions": [],
+  "trace": [],
+  "docs": null,
+  "audit_events": [],
+  "analysis_stats": null
+ },
+ "SCRUM-1": {
+  "story_id": "SCRUM-1",
+  "title": "Task 1",
+  "description": "Random Task 111\n\nAcceptance criteria:\nWork should work as intended",
+  "priority": "unknown",
+  "acceptance_criteria": [
+   {
+    "id": "AC-1",
+    "text": "Work should work as intended"
+   }
+  ],
+  "source_ids": [
+   "JIRA-SCRUM-1",
+   "CONF-655361-1",
+   "CONF-65825-1",
+   "CONF-65785-1",
+   "CONF-163935-1",
+   "CONF-163935-4",
+   "CONF-163933-1",
+   "CONF-65825-2",
+   "CONF-65785-2"
+  ],
+  "source_docs": {
+   "JIRA-SCRUM-1": {
+    "name": "Jira SCRUM-1: Task 1",
+    "version": "To Do",
+    "date": "2026-10-17",
+    "origin": "Jira (live)",
+    "text": "Task 1\nRandom Task 111\n\nAcceptance criteria:\nWork should work as intended"
+   },
+   "CONF-655361-1": {
+    "name": "SCRUM-1 (part 1)",
+    "version": "v2",
+    "date": "2026-10-18",
+    "origin": "Confluence (live)",
+    "text": "Random data from the SCRUM 1 Work should work as intended"
+   },
+   "CONF-65825-1": {
+    "name": "Template - Product requirements (part 1)",
+    "version": "v1",
+    "date": "2026-10-17",
+    "origin": "Confluence (live)",
+    "text": "Product overview Target date Type /date to add a target release date Document status DRAFT Team members Type @ name to mention teammates Quick links Designs Add Figma links here Loom demo Add Loom links here Work tracker Add Jira work item links or other relevant project links here Objective Provide context on this project and explain how it fits into your organization's strategic goals Success metrics List project goals and the metrics you'll use to judge its success. Goal Metric e.g., Simplify the user experience e.g., Customer satisfaction score increases Assumptions List any assumptions you have about your users, technical constraints, or business goals Milestones Add roadmap link here Requirements Requirement User Story Importance Jira Issue Notes e.g., Must be mobile responsive e.g., John is a PM who wants to check on his team's progress from the train station HIGH Red Out of Scope"
+   },
+   "CONF-65785-1": {
+    "name": "Software Development (part 1)",
+    "version": "v1",
+    "date": "2026-10-17",
+    "origin": "Confluence (live)",
+    "text": "#E3FCEF Welcome to your software project space! We've added some suggestions and placeholders. Everything is customizable. Get started with templates: Template - Product requirements Template - Meeting notes Template - Decision documentation Status Write an update Jira issues Recently updated Display a list of recently changed content To add the Recently updated element: When editing type / Find Recently updated in the dropdown Select Insert To edit the Recently updated element: Select the placeholder. The floating toolbar appears. Select Edit . The right panel opens. Modify the parameters. Your changes are saved as you go. Resume editing and the panel closes. Roadmap Adding a roadmap planner Create simple, visual timelines that are useful for planning projects, software releases and much more. Roadmaps are made up of: bars to indicate phases of work. lanes to differentiate between"
+   },
+   "CONF-163935-1": {
+    "name": "Getting started in Confluence (part 1)",
+    "version": "v1",
+    "date": "2026-10-17",
+    "origin": "Confluence (live)",
+    "text": "0b885b7f-2b42-41b1-8a5e-f0dc5e91cb27 :Growth_purple: #EAE6FF \ud83c\udf31 Welcome to Confluence! You can use Confluence to create a rich knowledge base or to collaborate with others using words, videos, images, graphics, charts, and graphs. This page walks you through some Confluence basics like spaces, pages, and elements that allow you to create and manage impactful content for your teams. Confluence 101 https://www.loom.com/share/5149671332234032989863f520d133ed \ud83d\uddc3\ufe0f Spaces Spaces are where teams organize ideas, projects, and documentation. Spaces can be customized and integrated with both Atlassian tools and others. Spaces can be organized with folders , and you can drag and drop to reorder or nest content so you can more effectively share your work with others. More about spaces 16 incomplete Select + Create at the top and choose Space to create a new space. \ud83d\udcc4 Content types Live docs let you"
+   },
+   "CONF-163935-4": {
+    "name": "Getting started in Confluence (part 4)",
+    "version": "v1",
+    "date": "2026-10-17",
+    "origin": "Confluence (live)",
+    "text": "with header images and emojis. \ud83c\udf55 Emojis aren\u2019t just a fun way to spice up your page\u2014they also show up in search, so using them strategically makes it easier to find pages later on. More about page header images 2285 incomplete Hover over your page title and select Add header image to customize your page. \ud83d\udcac Comments and mentions Comments are a great way to start a conversation about a page or blog post. They allow you to remark on content, add important information, ask questions, and generally drive collaboration and teamwork. @mention a teammate to bring them into the conversation, and they can reply to and/or like comments. More about comments | More about mentions 25 incomplete Highlight text and select Comment in the pop up menu to leave an inline comment. What\u2019s next? These are the top three actions we think will help you get the most from Confluence. 32 incomplete Explore a Space"
+   },
+   "CONF-163933-1": {
+    "name": "Overview (part 1)",
+    "version": "v1",
+    "date": "2026-10-17",
+    "origin": "Confluence (live)",
+    "text": "Say hello to your colleagues who want to know your name, pronouns, role, team and location (or if you're remote). \ud83d\udcc4 Recent content that I've worked on 5 5 titles \ud83d\udd90 Get in touch \u2709\ufe0f Insert your email here \ud83d\udcbc Insert your LinkedIn URL here \ud83d\udd17 Insert your Twitter handle here \ud83d\udc64 Insert your Medium profile here End with a bang! Some options are: \"I am so grateful to be here at <Insert company name> and very excited to get started!\" or \"Looking forward to meeting all of you!\" or \"Can't wait to get to know all of you!\""
+   },
+   "CONF-65825-2": {
+    "name": "Template - Product requirements (part 2)",
+    "version": "v1",
+    "date": "2026-10-17",
+    "origin": "Confluence (live)",
+    "text": "List the features discussed which are out of scope or might be revisited in a later release Design Add a Figma link here or type /whiteboard to create diagrams or visuals related to the requirements Open questions Question Answer Date Answered e.g., How might we make users more aware of this feature? e.g., We'll announce the feature with a blog post and a presentation Type /date to add a date Reference Links Type /database to create a database of relevant research, meetings, or any other key documents for this project"
+   },
+   "CONF-65785-2": {
+    "name": "Software Development (part 2)",
+    "version": "v1",
+    "date": "2026-10-17",
+    "origin": "Confluence (live)",
+    "text": "teams, products or streams. markers to highlight important dates and milestones. a timeline showing months or weeks. You can provide more information about items on your roadmap by linking a bar to a page. To add the Roadmap planner: When editing type / Find Roadmap planner in the dropdown Select Insert To edit the Roadmap planner: Select the placeholder. The floating toolbar appears. Select Edit . The right panel opens. Modify the parameters. Your changes are saved as you go. Resume editing and the panel closes."
+   }
+  },
+  "import_warnings": [],
+  "status": "assigned",
+  "findings": [],
+  "questions": [],
+  "decisions": [],
+  "trace": [],
+  "docs": null,
+  "audit_events": [
+   {
+    "at": "2026-10-18T10:14:22+00:00",
+    "event": "imported_from_jira",
+    "sources": 9
+   }
+  ],
+  "analysis_stats": null
+ }
+}
